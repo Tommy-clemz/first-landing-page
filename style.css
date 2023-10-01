@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-#wave {
+/*#wave {
     position: relative;
     height: 70px;
     width: 1349px;
@@ -33,7 +33,7 @@ top: 1rem;
     background-color: var(--Very_Dark_Cyan);
     left: 0;
     top: 24px;
-  }
+  }*/
 :root {
     --Pink: hsl(322, 100%, 66%);
     --Light_Pink: hsl(321, 100%, 78%);
