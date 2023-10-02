@@ -12,28 +12,7 @@ transform: rotate(180deg);
 transform: rotateX(180deg);
 top: 1rem;
 }
-  #wave:before {
-    content: "";
-    display: block;
-    position: absolute;
-    border-radius: 100% 50%;
-    width: 849px;
-    height: 80px;
-    background-color: white;
-    right: -5px;
-    top: 40px;
-  }
-  #wave:after {
-    content: "";
-    display: block;
-    position: absolute;
-    border-radius: 100% 60%;
-    width: 749px;
-    height: 70px;
-    background-color: var(--Very_Dark_Cyan);
-    left: 0;
-    top: 24px;
-  }*/
+
 :root {
     --Pink: hsl(322, 100%, 66%);
     --Light_Pink: hsl(321, 100%, 78%);
@@ -214,6 +193,15 @@ footer>.lorem-container>img {
     color: white;
 }
 
+body>img:nth-child(11) {
+    margin-bottom: -.5rem;
+    width: 100%;
+}
+
+body>img:nth-child(12) {
+    display: none;
+}
+
 
 @media (max-width:500px) {
     header>img {
@@ -315,35 +303,14 @@ footer>.lorem-container>img {
         position: relative;
         right: 0;
     }
-    #wave {
-        position: relative;
-        height: 70px;
-        width: 376px;
-        background: var(--Very_Dark_Cyan);
-    transform: rotate(180deg);
-    transform: rotateX(180deg);
-    top: 2.3rem;
+      body>img:nth-child(11) {
+        display: none;
     }
-      #wave:before {
-        content: "";
+
+    body>img:nth-child(12) {
         display: block;
-        position: absolute;
-        border-radius: 100% 50%;
-        width: 208px;
-        height: 80px;
-        background-color: white;
-        right: -5px;
-        top: 40px;
-      }
-      #wave:after {
-        content: "";
-        display: block;
-        position: absolute;
-        border-radius: 100% 50%;
-        width: 198px;
-        height: 70px;
-        background-color: var(--Very_Dark_Cyan);
-        left: 0;
-        top: 27px;
-      }
+        margin-bottom: -.5rem;
+        width: 100%;
+    }
+    
 }
